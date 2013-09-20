@@ -5,7 +5,7 @@
 The installation should take 2 mins or less and the scripts require no configuration.
 
 
-= Details =
+= Procedure =
 
   # Download [http://www.smccandl.net/isu/statusboard/code/ the code] to your server
   # Decide where it should live, like /home/me/scripts
