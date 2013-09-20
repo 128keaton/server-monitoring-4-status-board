@@ -14,7 +14,12 @@ The installation should take 2 mins or less and the scripts require no configura
   $ tar xvf /downloads/sm4sb_v1.0.tar
   }}}
   # Copy scripts you want to enable from "off" folder to "on" folder
-  # Setup cron job (using crontab -e)
+  # Setup cron job to run every 5 mins (using crontab -e)
   {{{
   5/* * * * * cd /home/me/scripts/sm4sb; ./gather.sh
   }}}
+  # Wait 5 mins for data to arrive
+  # Grab your iPad and point Safari to  [http://smccandl.net/isu/statusboard/ the dashboard]
+  # Copy the link of one of your CSVs from the dashboard
+  # Switch to Status Board and drag a new chart to the design space
+  # Status Board should ask if you want to use the copied link.
