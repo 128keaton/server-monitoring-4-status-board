@@ -1,0 +1,20 @@
+#summary SM4SB Installation
+
+= Introduction =
+
+The installation should take 2 mins or less and the scripts require no configuration.
+
+
+= Details =
+
+  # Download [http://www.smccandl.net/isu/statusboard/code/ the code] to your server
+  # Decide where it should live, like /home/me/scripts
+  {{{
+  $ cd /home/me/scripts
+  $ tar xvf /downloads/sm4sb_v1.0.tar
+  }}}
+  # Copy scripts you want to enable from "off" folder to "on" folder
+  # Setup cron job (using crontab -e)
+  {{{
+  5/* * * * * cd /home/me/scripts/sm4sb; ./gather.sh
+  }}}
